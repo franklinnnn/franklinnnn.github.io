@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.3), transparent), url(https://images.pexels.com/photos/6985001/pexels-photo-6985001.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    top: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 999;
+    background-color: #5BC0BE;
+    transition: background-color 1s ease 0s;
+}
+
+
+.navbar ul{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    width: 100%;
+}
+
+
+.navbar ul li{
+    display: inline-block;
+    margin: 50px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+
+section{
+    position: relative;
+    min-height: 100vh;
+    background-color: #3A506B;
+}
+section h1{
+    color: #fff;
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    max-width: 600px
+}
+#welcome-section img{
+    width: 100%;
+    margin: 10px;
+}
+#welcome-section h1{
+    text-align: center;
+    text-transform: none;
+    font-size: 2.2rem;
+}
+
+
+#projects{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 40px;
+    width: 100%;
+}
+
+.projects-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100%;
+}
+.project-card{
+    height: 380px;
+    width: 360px;
+    margin: 10px 0 60px 0;
+    padding: 10px;
+}
+.project-card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.project-card h4{
+    padding: 10px;
+    text-align: center;
+    font-size: 1.4rem;
+}
+.project-card a{
+    text-decoration: none;
+    color: #000;
+}
+.project-card a div{
+    padding: 5px;
+    border-radius: 7px;
+    background-color: #fff;
+}
+.projects-show-all{
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+}
+.projects-show-all a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #5BC0BE;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+#about{
+    padding: 80px 40px;
+    width: 100%;
+    display: inline-block;
+}
+
+#about .about-content{
+    display: flex;
+    justify-content: space-between;
+}
+#about .display-picture{
+    max-width: 600px;
+}
+#about .display-picture img{
+    width: 100%;
+}
+#about .text{
+    max-width: 500px;
+    color: #fff;
+}
+
+#contact{
+    position: relative;
+    padding: 80px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-content{
+    width: 100%;
+    text-align: center;
+}
+
+.contact-links ul{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 40px 0;
+}
+.contact-links ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+.contact-links ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
