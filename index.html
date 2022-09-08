@@ -1,165 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>work responsive complete</title>
 </head>
 
 <body>
-    
-    <main>
-        <section id="home">
-            <navbar id="navbar" class="navbar navbar-default">
-                <ul class="navbar-nav">
-                    <li><a href="#projects">Work</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">FA</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                 </ul>
-            </navbar>
+            </div>
 
-      
-            <div id="welcome-section">
-                <img src="img/user.png">
-                <h1>Hello</h1>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <h1 class="home__title"><span>HELLO.</span></h1>
+
+                <div class="home__scroll">
+
+                    <a href="#ab`out" class="home__scroll-link"><i class='bx bx-chevrons-down bx-fade-down'></i></a>
+                </div>
+
+                <img src="img/profile.png" alt="" class="home__img">
             </div>
         </section>
 
-        <section id="projects">
-            <h1>Projects</h1>
-            <div class="projects-content">
-                <div class="project-card">
-                    <a href="https://codepen.io/franklinnnn/full/zYReWZd">
-                        <div>
-                            <img src="projects/img/responsive_club.png" />
-                            <h4>Responsive Club Site</h4>
-                        </div>
-                    </a>
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="img/about.png" alt="">
                 </div>
 
-                <div class="project-card">
-                    <a href="https://codepen.io/franklinnnn/full/KKQLmNZ" target="_blank">
-                        <div>
-                            <img src="projects/img/product_landing.png" />
-                            <h4>Product Landing Page</h4>
-                        </div>
-                    </a>
-                </div>
+                <div>
+                    <h2 class="about__name">I'm Franklin</h2>
+                    <span class="about__profession">Front-End Developer</span>
+                    <!-- <p class="about__text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae ratione excepturi, saepe nisi
+                        in aperiam rem sint nihil qui et quisquam dolores doloremque adipisci deleniti.</p> -->
 
-                <div class="project-card">
-                    <a href="https://codepen.io/franklinnnn/full/BaYMrmB" target="_blank">
-                        <div>
-                            <img src="projects/img/number_guesser.png" />
-                            <h4>Number Guesser</h4> 
-                        </div>
-                    </a>
+                    <div class="about__social">
+                        <a href="https://www.linkedin.com/in/franklin-assa/" class="about__social-icon" target="_blank"
+                            title="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/franklinnnn" class="about__social-icon" target="_blank"
+                            title="GitHub"><i class='bx bxl-github'></i></a>
+                        <a href="https://codepen.io/franklinnnn/" class="about__social-icon" target="_blank"
+                            title="CodePen"><i class='bx bxl-codepen'></i></a>
+                    </div>
+                    <button class="about__resume">Resume</button>
                 </div>
-
-                <div class="project-card">
-                    <a href="https://codepen.io/franklinnnn/full/zYWxGGq" target="_blank">
-                        <div>
-                            <img src="projects/img/glass_calc.png" />
-                            <h4>Styled Calculator</h4> 
-                        </div>
-                    </a>
-                </div>
-
-                <div class="project-card">
-                    <a href="https://codepen.io/franklinnnn/full/VwXYvWN" target="_blank">
-                        <div>
-                            <img src="projects/img/blackjack.png" />
-                            <h4>Blackjack</h4> 
-                        </div>
-                    </a>
-                </div>
-
-                <div class="project-card">
-                    <a href="https://codepen.io/franklinnnn/full/ZExGwgQ" target="_blank">
-                        <div>
-                            <img src="projects/img/random_quote.png" />
-                            <h4>Random Quote Machine</h4> 
-                        </div>
-                    </a>
-                </div>
-
-                <div class="project-card">
-                    <a href="https://codepen.io/franklinnnn/full/poLJXVN" target="_blank">
-                        <div>
-                            <img src="projects/img/markdown.png" />
-                            <h4>Markdown Previewer</h4> 
-                        </div>
-                    </a>
-                </div>
-
-                <div class="project-card">
-                    <a href="https://fa-apptplanner.netlify.app/" target="_blank">
-                        <div>
-                            <img src="projects/img/appointments.png" />
-                            <h4>Appointment Planner</h4> 
-                        </div>
-                    </a>
-                </div>
-
-            </div>
-            <div class="projects-show-all">
-                <a href="https://codepen.io/franklinnnn" target="_blank">
-                    <span>Show All</span>
-                </a>
             </div>
         </section>
 
-        <section id="about">
-            <h1>About</h1>
-            <div class="about-content">
-                
-                <div class="display-picture">
-                    <img src="img/pic.png" />
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div class="skills__box">
+                    <h3 class="skills__subtitle">Development</h3>
+                    <span class="skills__name">HTML</span>
+                    <span class="skills__name">CSS</span>
+                    <span class="skills__name"></i>JavaScript</span>
+                    <span class="skills__name"></i>React</span>
+                    <span class="skills__name"></i>C++</span>
+                    <span class="skills__name"></i>C#</span>
+                    <h3 class="skills__subtitle">Design</h3>
+                    <span class="skills__name">Photoshop</span>
+                    <span class="skills__name">After Effects</span>
+                    <span class="skills__name">Premiere Pro</span>
+                    <span class="skills__name">Figma</span>
+
                 </div>
 
-                <div class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptas officia, voluptatem provident corrupti, blanditiis dolores, saepe quisquam a eum unde harum ipsa quas eos. Molestias, velit reprehenderit veniam quisquam perspiciatis doloribus tempora, et maiores ipsa a quo similique! Magni mollitia facere maiores, at distinctio doloribus adipisci beatae harum soluta, corrupti dolor laboriosam porro sunt laborum voluptatum esse expedita tenetur odio qui dolorem, aliquam eos! Nemo officiis ducimus voluptate? Magnam sint accusantium at blanditiis porro nobis quia. Cum error corporis dicta optio culpa impedit, deleniti debitis iusto aliquam, laudantium laboriosam. Cumque quaerat esse, beatae laboriosam obcaecati magni veritatis nisi laudantium!
-                </div>
-                
+                <!-- <div class="skills__img">
+                    <img src="assets/img/skill.jpg" alt="">
+                </div> -->
             </div>
         </section>
 
-        <section id="contact">
-            <div class="contact-content">
-                <h1>Contact</h1>
-                <div class="contact-links">
-                    <ul>
-                        <li>
-                            <a id="profile-link" href="https://github.com/franklinnnn" target="_blank">
-                                <i class="fa fa-github" aria-hidden="true" /></i>
-                                GitHub
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Work</h2>
+
+            <div class="work__container bd-grid">
+                <div class="work__img">
+                    <img src="img/w1.png" alt="">
+
+                    <div class="work__link">
+                        <div class="work__description">
+                            <a href="https://fa-redditsimple.netlify.app/" class="work__link-name" target="_blank">
+                                <h1>reddit simple</h1>
                             </a>
-                        </li>
-                        <li>
-                            <a id="profile-link" href="#" target="_blank">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                                Twitter
+                            <p class="work__stack">React Redux · HTML · CSS · JavaScript</p>
+                            <p>Simplified Reddit app made to browse subreddits and read posts. </p>
+                            <a href="https://github.com/franklinnnn/reddit-simple" target="_blank"
+                                class="work__link-icons"><i class='bx bxl-github'></i></a>
+                            <a href="https://fa-redditsimple.netlify.app/" class="work__link-icons" target="_blank"><i
+                                    class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work__img">
+                    <img src="img/w2.png" alt="">
+
+                    <div class="work__link">
+                        <div class="work__description">
+                            <a href="https://fa-todocontact.netlify.app/" class="work__link-name" target="_blank">
+                                <h1>todo/contact</h1>
                             </a>
-                        </li>
-                        <li>
-                            <a id="profile-link" href="mailto:franklin.assa@gmail.com" target="_blank">
-                                <i class="fa fa-envelope" aria-hidden="true"></i>
-                                Email
-                </a>
-                        </li>
-                    </ul>
-                    
+                            <p class="work__stack">React Redux · HTML · CSS · JavaScript</p>
+                            <p>Create and manage a to do list, along with contacts and appointments. </p>
+                            <a href="https://github.com/franklinnnn/todo-contact" target="_blank"
+                                class="work__link-icons"><i class='bx bxl-github'></i></a>
+                            <a href="https://fa-todocontact.netlify.app/" class="work__link-icons" target="_blank"><i
+                                    class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work__img">
+                    <img src="img/w3.png" alt="">
+
+                    <div class="work__link">
+                        <div class="work__description">
+                            <a href="https://fa-flashcards.netlify.app/" class="work__link-name" target="_blank">
+                                <h1>Flashcards</h1>
+                            </a>
+                            <p class="work__stack">React Redux · HTML · CSS · JavaScript</p>
+                            <p>Make custom flashcards for quizzes and categorize by topics.</p>
+                            <a href="https://github.com/franklinnnn/flashcards" target="_blank"
+                                class="work__link-icons"><i class='bx bxl-github'></i></a>
+                            <a href="https://fa-flashcards.netlify.app/" class="work__link-icons" target="_blank"><i
+                                    class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work__img">
+                    <img src="img/w4.png" alt="">
+
+                    <div class="work__link">
+                        <div class="work__description">
+                            <a href="https://franklinnnn.itch.io/endless-rolling" class="work__link-name"
+                                target="_blank">
+                                <h1>Endless Rolling</h1>
+                            </a>
+                            <p class="work__stack">C# · Unity</p>
+                            <p>Endless game to collect coins while dodging obstacles. Final project for game design
+                                course.</p>
+                            <a href="https://github.com/franklinnnn/cse4410/tree/main/FinalProject/Scripts"
+                                target="_blank" class="work__link-icons"><i class='bx bxl-github'></i></a>
+                            <a href="https://franklinnnn.itch.io/endless-rolling" class="work__link-icons"
+                                target="_blank"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="work__img">
+                    <img src="img/work5.jpg" alt="">
+
+                    <div class="work__link">
+                        <a href="#" class="work__link-name">View details</a>
+                    </div>
+                </div> -->
+                <div class="work__img">
+                    <img src="img/w6.jpg" alt="">
+
+                    <div class="work__link">
+
+                        <div class="work__description">
+                            <a href="https://codepen.io/franklinnnn/" class="work__link-name" target="_blank">
+                                <h1>CodePen Projects</h1>
+                            </a>
+                            <p class="work__stack">React · HTML · CSS · JavaScript</p>
+                            <p>Various smaller projects hosted on CodePen.</p>
+                            <a href="https://codepen.io/franklinnnn/" class="work__link-icons" target="_blank"><i
+                                    class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <footer>
-            
-        </footer>
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">EMAIL</h3>
+                    <span class="contact__text">franklin.assa@gmail.com</span>
+
+                    <!-- <h3 class="contact__subtitle">PHONE</h3>
+                    <span class="contact__text">+20 999-999</span> -->
+
+                    <h3 class="contact__subtitle">LOCATION</h3>
+                    <span class="contact__text">United States</span>
+                </div>
+
+                <form action=" mailto:franklin.assa@gmail.com<" method="POST" enctype="text/plain"
+                    class="contact__form">
+                    <div class="contact__inputs">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                    </div>
+
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+
+                    <input type="submit" value="Send" class="contact__button">
+                </form>
+                <!-- <div class="contact__info">
+                    <h3 class="contact__subtitle">GET IN TOUCH</h3>
+                    <button onclick="location.href='mailto:franklin.assa@gmail.com';">CONTACT ME</button>
+                </div> -->
+            </div>
+        </section>
     </main>
 
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <!-- <div class="footer__data">
+                <h2 class="footer__title">FRANKLIN</h2>
+                <p class="footer__text">© 2022 Franklin Assa</p>
+            </div> -->
+
+            <!-- <div class="footer__data">
+                <h2 class="footer__title">EXPLORE</h2>
+                <ul>
+                    <li><a href="#home" class="footer__link">Home</a></li>
+                    <li><a href="#about" class="footer__link">About</a></li>
+                    <li><a href="#skills" class="footer__link">Skills</a></li>
+                    <li><a href="#work" class="footer__link">Work</a></li>
+                    <li><a href="#Contact" class="footer__link">Contact</a></li>
+                </ul>
+            </div> -->
+
+            <div class="footer__data">
+                <a href="https://www.linkedin.com/in/franklin-assa/" class="footer__social" target="_blank"
+                    title="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/franklinnnn" class="footer__social" target="_blank" title="GitHub"><i
+                        class='bx bxl-github'></i></a>
+                <a href="https://codepen.io/franklinnnn/" class="footer__social" target="_blank" title="CodePen"><i
+                        class='bx bxl-codepen'></i></a>
+                <a href="https://twitter.com/franklin_assa" class="footer__social" target="_blank" title="Twitter"><i
+                        class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/boykunnn/" class="footer__social" target="_blank"
+                    title="Instagram"><i class='bx bxl-instagram'></i></a>
+                <p class="footer__text">© 2022 · Franklin Assa</p>
+            </div>
+
+
+        </div>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="scripts.js"></script>
 </body>
+
 </html>
