@@ -11,6 +11,11 @@
     <!-- ===== BOX ICONS ===== -->
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
+    <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+    <link rel="manifest" href="fav/site.webmanifest">
+
     <title>Franklin Assa Portfolio</title>
 </head>
 
@@ -26,7 +31,7 @@
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <!-- <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li> -->
                     <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
                     <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                 </ul>
@@ -46,7 +51,7 @@
 
                 <div class="home__scroll">
 
-                    <a href="#ab`out" class="home__scroll-link"><i class='bx bx-chevrons-down bx-fade-down'></i></a>
+                    <a href="#about" class="home__scroll-link"><i class='bx bx-chevrons-down bx-fade-down'></i></a>
                 </div>
 
                 <img src="img/profile.png" alt="" class="home__img">
@@ -77,13 +82,33 @@
                         <a href="https://codepen.io/franklinnnn/" class="about__social-icon" target="_blank"
                             title="CodePen"><i class='bx bxl-codepen'></i></a>
                     </div>
-                    <button class="about__resume">Resume</button>
+                    <form action="https://drive.google.com/file/d/1-7znmkFQvP7ZfdW-mcQXCh-epxj2hT6w/view?usp=sharing"
+                        target="_blank">
+                        <button class="about__resume">Resume</button>
+                    </form>
+                </div>
+            </div>
+            <div class="skills__container bd-grid">
+                <div class="skills__box">
+                    <h3 class="skills__subtitle">Development</h3>
+                    <span class="skills__name">HTML</span>
+                    <span class="skills__name">CSS</span>
+                    <span class="skills__name"></i>JavaScript</span>
+                    <span class="skills__name"></i>React</span>
+                    <span class="skills__name"></i>C++</span>
+                    <span class="skills__name"></i>C#</span>
+                    <h3 class="skills__subtitle">Design</h3>
+                    <span class="skills__name">Photoshop</span>
+                    <span class="skills__name">After Effects</span>
+                    <span class="skills__name">Premiere Pro</span>
+                    <span class="skills__name">Figma</span>
+
                 </div>
             </div>
         </section>
 
         <!--===== SKILLS =====-->
-        <section class="skills section" id="skills">
+        <!-- <section class="skills section" id="skills">
             <h2 class="section-title">Skills</h2>
 
             <div class="skills__container bd-grid">
@@ -102,12 +127,8 @@
                     <span class="skills__name">Figma</span>
 
                 </div>
-
-                <!-- <div class="skills__img">
-                    <img src="assets/img/skill.jpg" alt="">
-                </div> -->
             </div>
-        </section>
+        </section> -->
 
         <!--===== WORK =====-->
         <section class="work section" id="work">
@@ -184,13 +205,25 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="work__img">
-                    <img src="img/work5.jpg" alt="">
+
+                <div class="work__img">
+                    <img src="img/w5.png" alt="">
 
                     <div class="work__link">
-                        <a href="#" class="work__link-name">View details</a>
+                        <div class="work__description">
+                            <a href="https://franklinnnn.itch.io/endless-rolling" class="work__link-name"
+                                target="_blank">
+                                <h1>F Chat</h1>
+                            </a>
+                            <p class="work__stack">React · HTML · CSS · JavaScript · Firebase</p>
+                            <p>Chat room app, with functionality to add rooms and direct messaging between users.</p>
+                            <a href="#" target="_blank" class="work__link-icons"><i class='bx bxl-github'></i></a>
+                            <a href="https://chat-app-48ae2.web.app/" class="work__link-icons" target="_blank"><i
+                                    class='bx bx-link-external'></i></a>
+                        </div>
                     </div>
-                </div> -->
+                </div>
+
                 <div class="work__img">
                     <img src="img/w6.jpg" alt="">
 
