@@ -1,7 +1,7 @@
 let work = [
   {
     title: "reddit simple",
-    img: "img/w1.png",
+    img: "img/work/reddit-simple.png",
     link: "https://fa-redditsimple.netlify.app/",
     repository: "https://github.com/franklinnnn/reddit-simple",
     stack: "React Redux · HTML · CSS · JavaScript",
@@ -9,7 +9,7 @@ let work = [
   },
   {
     title: "todo/contact",
-    img: "img/w2.png",
+    img: "img/work/todo-contact.png",
     link: "https://fa-redditsimple.netlify.app/",
     repository: "https://github.com/franklinnnn/todo-contact",
     stack: "React Redux · HTML · CSS · JavaScript",
@@ -17,7 +17,7 @@ let work = [
   },
   {
     title: "Flashcards",
-    img: "img/w3.png",
+    img: "img/work/flashcards.png",
     link: "https://fa-flashcards.netlify.app/",
     repository: "https://github.com/franklinnnn/flashcards",
     stack: "React Redux · HTML · CSS · JavaScript",
@@ -25,7 +25,7 @@ let work = [
   },
   {
     title: "Endless Rolling",
-    img: "img/w4.png",
+    img: "img/work/endless-rolling.png",
     link: "https://franklinnnn.itch.io/endless-rolling",
     repository:
       "https://github.com/franklinnnn/cse4410/tree/main/FinalProject/Scripts",
@@ -34,7 +34,7 @@ let work = [
   },
   {
     title: "F Chat",
-    img: "img/w5.png",
+    img: "img/work/f-chat.png",
     link: "https://chat-app-48ae2.web.app/",
     repository: "https://github.com/franklinnnn/",
     stack: "React · HTML · CSS · JavaScript · Firebase",
@@ -42,7 +42,7 @@ let work = [
   },
   {
     title: "Recipe Receipt",
-    img: "img/w6.png",
+    img: "img/work/recipe-receipt.png",
     link: "https://recipe-receipt.netlify.app/",
     repository: "https://github.com/franklinnnn/recipe-app",
     stack: "React · HTML · CSS · JavaScript",
@@ -50,7 +50,7 @@ let work = [
   },
   {
     title: "Stronk Fitness",
-    img: "img/w7.png",
+    img: "img/work/stronk-fitness.png",
     link: "https://stronk-fitness.netlify.app/",
     repository: "https://github.com/franklinnnn/fitness-app",
     stack: "React · HTML · CSS · JavaScript",
