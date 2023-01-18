@@ -78,3 +78,7 @@ sr.reveal(".work__container", { interval: 200 });
 sr.reveal(".contact__text", { interval: 200 });
 sr.reveal(".contact__input", { delay: 400 });
 sr.reveal(".contact__button", { delay: 600 });
+
+/*DATE*/
+const year = new Date().getFullYear();
+document.getElementById("footer__text").innerHTML = `${year} · Franklin Assa`;
