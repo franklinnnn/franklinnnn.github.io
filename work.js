@@ -10,7 +10,7 @@ let work = [
   {
     title: "todo/contact",
     img: "img/work/todo-contact.png",
-    link: "https://fa-redditsimple.netlify.app/",
+    link: "https://fa-todocontact.netlify.app/",
     repository: "https://github.com/franklinnnn/todo-contact",
     stack: "React Redux · HTML · CSS · JavaScript",
     desc: "Create and manage a to do list, along with contacts and appointments.",
@@ -56,9 +56,19 @@ let work = [
     stack: "React · HTML · CSS · JavaScript",
     desc: "Look for exercises, categorized by body parts, muscle groups, and equipments. Each exercise has detailed demonstrations and example videos.",
   },
+  {
+    title: "Find Words",
+    img: "img/work/find-words.png",
+    link: "https://find-words.vercel.app/",
+    repository: "https://github.com/franklinnnn/thesaurus-app",
+    stack: "React · HTML · CSS · JavaScript",
+    desc: "Quick and simple thesaurus app with some extra options.",
+  },
 ];
 
 document.getElementById("work__container").innerHTML = work
+  .sort()
+  .reverse()
   .map(
     (item) =>
       `<div class="work__img">
