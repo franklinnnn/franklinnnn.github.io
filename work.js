@@ -64,6 +64,14 @@ let work = [
     stack: "React · HTML · CSS · JavaScript",
     desc: "Quick and simple thesaurus app with some extra options.",
   },
+  {
+    title: "AI Imager",
+    img: "img/work/ai-imager.png",
+    link: "https://ai-image-app.vercel.app/",
+    repository: "https://github.com/franklinnnn/ai-image-app",
+    stack: "MongoDB · Express · React · Node · Tailwind",
+    desc: "AI image generator app using OpenAI. Generated images can be posted to a gallery.",
+  },
 ];
 
 document.getElementById("work__container").innerHTML = work
