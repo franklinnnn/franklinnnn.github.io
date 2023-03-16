@@ -72,11 +72,18 @@ let work = [
     stack: "MongoDB · Express · React · Node · Tailwind",
     desc: "AI image generator app using OpenAI. Generated images can be posted to a gallery.",
   },
+  {
+    title: "Weather + News",
+    img: "img/work/weather-news.png",
+    link: "https://weather-app-zeta-lyart.vercel.app/",
+    repository: "https://github.com/franklinnnn/weather-app",
+    stack: "React · HTML · CSS · JavaScript",
+    desc: "Search for current weather of any city, including sunrise, sunset, and 5 day forcasts, along with the most recent and relevant news.",
+  },
 ];
 
 document.getElementById("work__container").innerHTML = work
-  .sort()
-  .reverse()
+  .sort((a, b) => a.title.localeCompare(b.title))
   .map(
     (item) =>
       `<div class="work__img">
